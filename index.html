@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teriyaki Bowls: Toshikos Japanese Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <h1>Teriyaki Bowls</h1>
+    <form id="order" action="order.php" method="post">
+    <fieldset>
+        <legend>Meal or A La Carte</legend>
+        <input type="radio" name="bowl" id="bowl" value="meal">
+        <label for="bowl">Donburi</label><br>
+        <input type="radio" name="bowl" id="alacarte" value="alacarte">
+        <label for="alacarte">A La Carte</label><br>
+        </fieldset>
+    <br>
+    <fieldset>
+        <legend>Meat</legend>
+        <input type="radio" name="meat" id="chicken" value="chicken">
+        <label for="meat">Chicken</label>
+        <input type="radio" name="meat" id="salmon" value="salmon">
+        <label for="meat"> Salmon</label>
+        <input type="radio" name="meat" id="newyork" value="newyork">
+        <label for="meat">New York Steak</label>
+        <input type="radio" name="meat" id="ribeye" value="ribeye">
+        <label for="meat">Ribeye</label>
+    </fieldset>
+    <fieldset>
+        <legend>Veggies and Sides</legend>
+        <input type="checkbox" name="">
+    </fieldset>
+    </form>
+    
     
 </body>
 </html>
