@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Teriyaki Bowls</h1>
+    <div><img src="images/logo.png" alt="The logo of Toshikos Japanese Cuisine which is a mountain."><h1>Teriyaki Bowls</h1></div>
     <form id="order" action="order.php" method="post">
     <fieldset>
         <legend class="headings">Meal or A La Carte</legend>
@@ -22,13 +22,13 @@
     <fieldset>
         <legend class="headings">Meat</legend>
         <input type="radio" name="meat" id="chicken" value="chicken">
-        <label for="meat">Chicken</label><br>
+        <label for="chicken">Chicken</label><br>
         <input type="radio" name="meat" id="salmon" value="salmon">
-        <label for="meat"> Salmon</label><br>
+        <label for="salmon"> Salmon</label><br>
         <input type="radio" name="meat" id="newyork" value="newyork">
-        <label for="meat">New York Steak</label><br>
+        <label for="newyork">New York Steak</label><br>
         <input type="radio" name="meat" id="ribeye" value="ribeye">
-        <label for="meat">Ribeye</label><br>
+        <label for="ribeye">Ribeye</label><br>
         </fieldset>
     <br>
     <fieldset>
@@ -67,11 +67,11 @@
         <br>
         </fieldset>
     <br>
-    <label class="headings" for="comments">Special Instructions:</label><br><br>
-    <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here"></textarea><br>
+    <label class="headings">Special Instructions:</label><br><br>
+    <textarea name="instructions" id="instructions" cols="70" rows="10" placeholder="If you have any preferences or allergies, please let us know here."></textarea><br>
     <h2 class="headings">Enter your Information:</h2>
     <label for="name">Enter your name:</label><br>
-    <input type="name" name="name" id="name" maxlength="50" required><br>
+    <input name="name" id="name"><br>
     <label for="email">Enter your email</label><br>
     <input type="email" name="email" id="email" maxlength="50" required><br>
     <label for="phone">Enter your Number</label><br>
@@ -82,8 +82,8 @@
         <option value="togo">To Go</option>
     </select><br>
     <br>
-    <input type="submit" id="checkout" value="Checkout">
-    <input type="reset" id="resetorder" value="Clear Cart">
+    <input class="buttons" type="submit" id="checkout" value="Checkout">
+    <input class="buttons" type="reset" id="resetorder" value="Clear Cart">
     </form>
     
 </body>
