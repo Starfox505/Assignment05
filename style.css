@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap');
+
 body {
     font-size: 18px;
     background-color: rgb(255, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headings {
+    font-size: 2rem;
 }
 
 h1 {
     font-size: 4rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
