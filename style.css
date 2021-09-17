@@ -21,6 +21,7 @@ input {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 2px 5px;
+    display: inline;
 }
 
 h1 {
