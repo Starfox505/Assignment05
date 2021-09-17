@@ -4,10 +4,23 @@ body {
     font-size: 18px;
     background-color: rgb(255, 0, 0);
     font-family: 'Open Sans', sans-serif;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+}
+
+.buttons {
+    text-align: left;
+}
+
+input {
+    margin: .4rem;
 }
 
 .headings {
     font-size: 2rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
 }
 
 h1 {
