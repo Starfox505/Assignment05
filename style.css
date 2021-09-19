@@ -8,8 +8,8 @@ body {
     margin-right: 1.75rem;
 }
 
-input {
-    margin: .4rem;
+input, select, textarea, fieldset {
+    margin: .75rem auto;
 }
 
 fieldset {
